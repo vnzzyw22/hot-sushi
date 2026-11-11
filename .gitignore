@@ -1,0 +1,11 @@
+# Local previews, generated deliverables and browser scratch files
+work/
+outputs/
+.playwright-mcp/
+
+# Local configuration and installed dependencies
+*.local.js
+.env
+.env.*
+!.env.example
+node_modules/
