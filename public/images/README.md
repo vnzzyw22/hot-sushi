@@ -10,6 +10,8 @@ Assets are local so the site does not depend on expiring Instagram CDN URLs.
 
 `hero/hero-desktop.jpg` and `hero/hero-mobile.jpg` were generated for this site's hero with OpenAI image generation on 2026-11-10. They illustrate a Japanese food composition and are not photographs of Hot Sushi products. The JPEG files are quality-86 encodings of the generated PNG masters. The desktop composition reserves negative space at left; the mobile version reserves negative space above the plate.
 
+Em 2026-11-11, a hero passou a combinar essas imagens de fundo com o título tipográfico vazado e animado. As imagens seguem sendo ilustrações geradas, não fotografias de produtos reais.
+
 ## Instagram photography
 
 These files are browser captures of the publicly served photographs from the official Hot Sushi Instagram profile, not links to temporary CDN URLs. JPEG quality is 82–86. No photographs of other restaurants were used. Posts 02, 03 and 06 were captured from their individual public post pages at the higher resolutions shown below.

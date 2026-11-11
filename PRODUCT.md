@@ -16,7 +16,7 @@ People choosing Japanese food for delivery on a phone, mainly in the store's ser
 
 ## Product Purpose
 
-Present the Hot Sushi Sarandi brand and selected real menu imagery, then send visitors to the store's official Anota AI menu to complete orders.
+Apresentar a marca e fotos reais da Hot Sushi Sarandi. O cliente pode pedir pela Anota AI ou, quando os dados comerciais e o número oficial estiverem confirmados, montar um carrinho no site e levar a mensagem ao WhatsApp.
 
 ## Operating Context
 
@@ -26,10 +26,12 @@ Present the Hot Sushi Sarandi brand and selected real menu imagery, then send vi
 
 ## Capabilities and Constraints
 
-- Product categories and names must come from the current official menu.
-- Prices, availability, add-ons, promotions, hours and delivery area remain authoritative in Anota AI and should not be duplicated without a synchronization plan.
-- No custom checkout or client-side Anota credentials.
-- The hero may use generated food photography. Product and gallery photography uses real Hot Sushi material; the owner later allowed generated product imagery only as a fallback.
+- Categorias, nomes, descrições, preços, disponibilidade e adicionais precisam de verificação na fonte oficial. O acesso público falhou em 2026-11-11; os poucos nomes atuais no site têm registro histórico de 2026-11-10.
+- Itens sem preço, disponibilidade ou adicionais confirmados levam à Anota AI e não entram no carrinho.
+- O carrinho monta mensagem com quantidade, opções e total dos itens. O cliente confirma o envio no WhatsApp; a loja confirma entrega e valor final.
+- O número comercial permanece pendente. O número particular de teste fica apenas em configuração local ignorada pelo Git.
+- Não há checkout próprio nem credenciais da Anota AI no navegador.
+- A hero atual combina tipografia vazada com a imagem ilustrativa gerada para o projeto. Fotos de produtos e galeria usam material real da Hot Sushi; o proprietário permitiu imagens geradas de produtos apenas como último recurso, desde que identificadas.
 
 ## Brand Commitments
 
@@ -41,12 +43,12 @@ Present the Hot Sushi Sarandi brand and selected real menu imagery, then send vi
 
 - Supplied logo: `public/images/brand/logo-original.jpg`.
 - Public Instagram photographs saved in `public/images/instagram/`; origins recorded in `public/images/README.md`.
-- Official categories and item names inspected in the Anota AI public menu on 2026-11-10.
+- Categorias e alguns nomes observados no cardápio público em 2026-11-10; tentativas de reverificação e lacunas em `MENU-SOURCES.md`.
 - Sales ranking, verified delivery schedule/area, historical pricing and permission for API access are not on hand.
 
 ## Product Principles
 
 1. Keep the route to ordering obvious.
 2. Show real food and identify generated hero imagery as illustrative in the asset register.
-3. Keep commercial details in the live order menu.
+3. Exibir detalhes comerciais no site somente quando verificados; manter Anota AI acessível em todos os estados.
 4. Support small screens first.

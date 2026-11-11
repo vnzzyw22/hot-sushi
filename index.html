@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#171513" />
-    <meta name="description" content="Hot Sushi Sarandi: comida japonesa por delivery. Explore os destaques e finalize seu pedido no cardápio oficial da Anota AI." />
+    <meta name="description" content="Hot Sushi Sarandi: comida japonesa por delivery. Conheça o cardápio e escolha entre a Anota AI e o pedido pelo site quando os dados estiverem confirmados." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:title" content="Hot Sushi Sarandi | Hoje tem Hot Sushi" />
@@ -25,7 +25,7 @@
         "sameAs": "https://www.instagram.com/hot_sushi_japonese_food/"
       }
     </script>
-    <script src="script.js" defer></script>
+    <script type="module" src="script.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -44,28 +44,25 @@
           <a href="#cardapio">Cardápio</a>
           <a href="#experiencia">Nossa experiência</a>
           <a href="#instagram">Instagram</a>
-          <a class="nav-order" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Fazer pedido <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a>
+          <a class="nav-order" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Pedir pela Anota AI <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a>
         </nav>
       </div>
     </header>
 
     <main id="conteudo">
       <section class="hero" aria-labelledby="hero-title">
-        <picture class="hero-media">
-          <source media="(max-width: 700px)" srcset="public/images/hero/hero-mobile.jpg" />
-          <img src="public/images/hero/hero-desktop.jpg" alt="Composição gastronômica de sushi e sashimi, imagem criada para a apresentação do site" width="1536" height="1024" fetchpriority="high" />
-        </picture>
+        <picture class="hero-media" aria-hidden="true"><source media="(max-width: 700px)" srcset="public/images/hero/hero-mobile.jpg" /><img src="public/images/hero/hero-desktop.jpg" alt="" width="1536" height="1024" fetchpriority="high" /></picture>
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content container">
-          <p class="hero-intro">Comida japonesa por delivery em Sarandi</p>
-          <h1 id="hero-title">Hoje tem<br /><em>Hot Sushi.</em></h1>
-          <p class="hero-copy">Escolha o que dá vontade de comer. Seu pedido continua no cardápio oficial da Hot Sushi.</p>
+          <h1 id="hero-title" class="hero-title"><span class="sr-only">Hot Sushi Sarandi</span>
+            <svg class="hero-type hero-type-desktop" viewBox="0 0 1280 310" aria-hidden="true" focusable="false"><text class="hero-outline-base" x="50%" y="75%" textLength="1190" lengthAdjust="spacingAndGlyphs">HOT SUSHI</text><text class="hero-outline-run" x="50%" y="75%" textLength="1190" lengthAdjust="spacingAndGlyphs">HOT SUSHI</text></svg>
+            <svg class="hero-type hero-type-mobile" viewBox="0 0 600 600" aria-hidden="true" focusable="false"><text class="hero-outline-base" x="50%" y="41%" textLength="430" lengthAdjust="spacingAndGlyphs">HOT</text><text class="hero-outline-base" x="50%" y="84%" textLength="560" lengthAdjust="spacingAndGlyphs">SUSHI</text><text class="hero-outline-run" x="50%" y="41%" textLength="430" lengthAdjust="spacingAndGlyphs">HOT</text><text class="hero-outline-run" x="50%" y="84%" textLength="560" lengthAdjust="spacingAndGlyphs">SUSHI</text></svg>
+          </h1>
           <div class="hero-actions">
-            <a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Fazer pedido <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a>
-            <a class="button button-outline" href="#cardapio">Conhecer cardápio</a>
+            <a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Pedir pela Anota AI <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a>
+            <a class="button button-outline" href="#cardapio">Montar pedido no site</a>
           </div>
         </div>
-        <div class="hero-caption container" aria-hidden="true"><span>HOT SUSHI SARANDI</span><span>DA SUA ESCOLHA À SUA MESA</span></div>
       </section>
 
       <section class="intro-band" aria-label="Sobre o delivery">
@@ -97,18 +94,20 @@
 
       <section class="section menu-section" id="cardapio" aria-labelledby="cardapio-title">
         <div class="container menu-layout">
-          <div class="menu-intro"><h2 id="cardapio-title">Um cardápio para explorar no seu ritmo.</h2><p>Veja as categorias disponíveis e abra a página oficial da Hot Sushi para conferir itens, adicionais e valores atualizados.</p><a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Abrir cardápio oficial <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div>
-          <ul class="menu-list" aria-label="Categorias confirmadas no cardápio oficial">
-            <li>Combinados</li>
-            <li>Hot Sushi</li>
-            <li>Uramaki</li>
-            <li>Hossomaki</li>
-            <li>Temaki</li>
-            <li>Djou</li>
-            <li>Sashimi</li>
-            <li>Niguiri</li>
-            <li>Bebidas e acompanhamentos</li>
-          </ul>
+          <div class="menu-intro">
+            <h2 id="cardapio-title">Escolha seu caminho para pedir.</h2>
+            <p>As categorias e os poucos nomes abaixo foram vistos no cardápio oficial em 10/11/2026. Não conseguimos confirmar os preços, adicionais ou a disponibilidade atual. Consulte a Anota AI antes de pedir.</p>
+            <div class="menu-actions">
+              <a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Pedir pela Anota AI</a>
+              <button class="button button-outline" type="button" data-open-cart>Ver carrinho <span data-cart-count>0</span></button>
+            </div>
+          </div>
+          <div class="catalog-area">
+            <h3 class="catalog-heading">Explorar categorias</h3>
+            <div class="category-list" id="category-list" role="group" aria-label="Categorias do cardápio"></div>
+            <div class="catalog-panel" id="catalog-panel" aria-live="polite"></div>
+            <p class="catalog-note">Itens sem preço, disponibilidade ou adicionais confirmados só podem ser consultados na <a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Anota AI</a>. O pedido pelo WhatsApp será liberado após a confirmação do cardápio e do número comercial.</p>
+          </div>
         </div>
       </section>
 
@@ -120,7 +119,7 @@
       <section class="section combos-section" id="combos" aria-labelledby="combos-title">
         <div class="container combos-layout">
           <div class="combos-photo"><img src="public/images/instagram/post-03.jpg" alt="Seleção de sushis e peças de salmão publicada pela Hot Sushi" width="640" height="640" loading="lazy" /></div>
-          <div class="combos-content"><h2 id="combos-title">Para dividir. Ou não.</h2><p>O cardápio oficial reúne combinados de diferentes tamanhos. As fotos mostram produtos reais da Hot Sushi; confira a composição de cada opção antes de pedir.</p><div class="combo-options"><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer"><span>Combo Premium <strong>16 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer"><span>Combo Premium <strong>30 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer"><span>Combo Premium <strong>36 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div><a class="button button-dark" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Ver todos os combinados <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div>
+          <div class="combos-content"><h2 id="combos-title">Para dividir. Ou não.</h2><p>O cardápio oficial reúne combinados de diferentes tamanhos. As fotos mostram produtos reais da Hot Sushi; confira a composição de cada opção antes de pedir.</p><div class="combo-options"><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer" aria-label="Ver Combo Premium 16 peças na Anota AI"><span>Combo Premium <strong>16 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer" aria-label="Ver Combo Premium 30 peças na Anota AI"><span>Combo Premium <strong>30 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer" aria-label="Ver Combo Premium 36 peças na Anota AI"><span>Combo Premium <strong>36 peças</strong></span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div><a class="button button-dark" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Ver todos os combinados <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div>
         </div>
       </section>
 
@@ -130,11 +129,18 @@
 
       <section class="delivery-section" id="delivery" aria-labelledby="delivery-title"><div class="container delivery-layout"><div><h2 id="delivery-title">Seu pedido, no canal certo.</h2><p>A Hot Sushi atende por delivery. No cardápio oficial você pode consultar a disponibilidade, informar o endereço e conferir as condições antes de finalizar.</p></div><a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Consultar delivery <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div></section>
 
-      <section class="final-cta" aria-labelledby="final-title"><div class="container final-cta-inner"><p>Hot Sushi Sarandi</p><h2 id="final-title">A próxima peça<br />é sua escolha.</h2><a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Fazer pedido <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div></section>
+      <section class="final-cta" aria-labelledby="final-title"><div class="container final-cta-inner"><p>Hot Sushi Sarandi</p><h2 id="final-title">A próxima peça<br />é sua escolha.</h2><a class="button button-primary" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Pedir pela Anota AI <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a></div></section>
     </main>
 
-    <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio"><img src="public/images/brand/logo-original.jpg" alt="Hot Sushi Sarandi" width="56" height="56" /></a><p>Comida japonesa por delivery.<br />Sarandi, PR.</p><div class="footer-links"><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Cardápio e pedidos</a><a href="https://www.instagram.com/hot_sushi_japonese_food/" target="_blank" rel="noopener noreferrer">Instagram</a></div><small>© <span id="year">2026</span> Hot Sushi Sarandi</small></div></footer>
+    <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio" aria-label="Voltar ao início"><img src="public/images/brand/logo-original.jpg" alt="Hot Sushi Sarandi" width="56" height="56" /></a><p>Comida japonesa por delivery.<br />Sarandi, PR.</p><div class="footer-links"><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Cardápio e pedidos</a><a href="https://www.instagram.com/hot_sushi_japonese_food/" target="_blank" rel="noopener noreferrer">Instagram</a></div><small>© <span id="year">2026</span> Hot Sushi Sarandi</small></div></footer>
 
-    <a class="mobile-order" href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Fazer pedido <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-5-5 5 5-5 5" /></svg></a>
+    <div class="mobile-order" aria-label="Opções de pedido"><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Anota AI</a><button type="button" data-open-cart>Carrinho <span data-cart-count>0</span></button></div>
+
+    <div class="cart-overlay" id="cart-overlay" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+      <div class="cart-header"><div><p>Seu pedido</p><h2 id="cart-title">Carrinho</h2></div><button class="cart-close" type="button" data-close-cart aria-label="Fechar carrinho">×</button></div>
+      <div class="cart-content"><div id="cart-items" aria-live="polite"></div></div>
+      <div class="cart-footer"><div class="cart-total"><span>Total dos itens</span><strong id="cart-total">R$ 0,00</strong></div><p id="cart-status" role="status">Os itens desta prévia ainda não têm preços confirmados. Consulte a Anota AI.</p><button class="button button-primary cart-send" id="cart-send" type="button" disabled>Continuar no WhatsApp</button><small>A mensagem só será enviada quando você confirmar o envio no WhatsApp. Entrega e valor final são confirmados pela loja.</small><a href="https://app.anota.ai/m/D0o9CKMVw" target="_blank" rel="noopener noreferrer">Pedir pela Anota AI</a></div>
+    </aside>
   </body>
 </html>

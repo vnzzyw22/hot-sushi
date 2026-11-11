@@ -5,6 +5,7 @@ outputs/
 
 # Local configuration and installed dependencies
 *.local.js
+*.local.json
 .env
 .env.*
 !.env.example
