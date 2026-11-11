@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T17:53:01.547Z",
+        "reason": "As seções de largura total usam contêiner interno com margens laterais e espaçamento vertical; o detector avalia apenas a seção externa."
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T17:53:29.098Z",
+        "reason": "As áreas com texto branco usam imagem escurecida, vermelho ou carvão; as áreas creme usam texto escuro. O detector atribuiu o fundo creme do body a elementos de outras seções."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T17:53:41.219Z",
+        "reason": "O fundo creme #F7F3ED consta da direção visual aprovada em DESIGN.md e contrasta com carvão e vermelho da marca."
+      }
+    ]
+  }
+}

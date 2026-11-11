@@ -21,3 +21,9 @@
 - O fluxo de item real até WhatsApp não pode ser exercido: faltam preços, disponibilidade, adicionais e número comercial confirmados. Os cálculos e a mensagem foram testados com produto fictício somente no teste automatizado.
 - A imagem de fundo foi recolocada na hero após as últimas capturas de navegador, a pedido do proprietário. O HTML e CSS finais foram revisados, mas não houve nova captura dessa composição porque o proprietário pediu para cessar os avisos de permissão da ferramenta de navegador.
 - O detector automático de design sinalizou texto branco sobre fundo claro, mas as capturas disponíveis não mostraram esse par na interface. A marcação parece resultar da análise estática da hero, cujo texto é sobre imagem escurecida; a composição final ainda precisa de uma captura para encerrar esse ponto.
+
+## Revisão do detector em 2026-11-11
+
+- Aumentados para pelo menos 11 px: “Sarandi” na marca, botões da hero no celular e rótulos dos destaques. A nota do carrinho passou a 14 px.
+- O detector retornou `[]` após as correções e três exceções registradas em `.impeccable/config.json`, limitadas a `index.html`: `cramped-padding` para seções de largura total com contêiner interno, `low-contrast` para a atribuição incorreta do fundo creme a texto em seções escuras e `cream-palette` para a cor já definida em `DESIGN.md`.
+- A revisão foi estática. Nenhuma nova captura foi feita, respeitando o pedido para não acionar novamente as permissões da ferramenta de navegador.
