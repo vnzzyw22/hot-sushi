@@ -21,4 +21,4 @@ Site estático e responsivo. Inicie a prévia com `node serve.mjs` e abra `http:
 - Review all commercial copy with the owner and confirm whether the public cardápio URL remains current.
 - Supply verified hours and delivery regions if those details should appear on this site.
 
-The two fonts are currently loaded from Google Fonts and have local system fallbacks.
+Barlow Condensed, DM Sans e Unbounded (somente no título da hero) são carregadas pelo Google Fonts e têm fontes do sistema como alternativa.
